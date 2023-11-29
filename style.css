@@ -1,0 +1,102 @@
+
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+.nav{
+	display:flex;
+	justify-content:flex-end;
+	margin-top:20px;
+	align-items: center;
+}
+.nav_list{
+	margin:0;
+	padding:0;
+	display:flex;
+	gap:20px;
+	align-items: center;
+	cursor:pointer;
+}
+.nav_item-profile img{
+	width:40px;
+	height:40px;
+	border-radius:30px;
+	margin-right:10px;
+	
+	
+}
+/*main start here */
+.main{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:80vh;
+	
+}
+.main{
+	position:relative;
+}
+
+.form_group{
+	display:flex;
+}
+.form_group{
+	position:relative;
+}
+#search{
+	width:40vw;
+	border-radius:30px;
+	padding:10px;
+	outline:none;
+	padding-left:50px;
+	
+	border:1px solid rgb(190,190,190);
+}
+
+.google_logo{
+	position:absolute;
+	font-size:70px;
+	top:100px;
+}
+.search_icon{
+	position:absolute;
+	left:25px;
+	top:11px;
+}
+.mic_icon{
+	position:absolute;
+	right:60px;
+	top:11px;
+}
+.camera_icon{
+	position:absolute;
+	right:20px;
+	top:11px;
+}
+/*main end here */
+.footer{
+	position:relative;
+}
+.link_icon{
+	position:absolute;
+	left:15px;
+	top:6px;
+	
+}
+#link_l{
+	position:absolute;
+	left:35px;
+	
+	
+	
+
+}
+#a_link{
+	color:black;
+	text-decoration:underline;
+}
